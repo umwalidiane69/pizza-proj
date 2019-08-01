@@ -1,4 +1,4 @@
-/* .header{
+.header{
     background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
     background-size: cover;
     width: 100%;
@@ -8,7 +8,7 @@
     text-align: center;
     font-size: 60px;
 }
-.fom{
+/* .fom{
     display: flex;
     flex-direction: column;
     justify-content: center;
