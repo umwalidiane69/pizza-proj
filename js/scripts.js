@@ -1,12 +1,12 @@
-// //business logic
-// function order(name, size, crust, topping, number, total) {
-//    this.name = name;
-//    this.size = size;
-//    this.crust = crust;
-//    this.topping = topping;
-//    this.number = number;
-//    this.total = total;
-// }
+//business logic
+function order(name, size, crust, topping, number, total) {
+   this.name = name;
+   this.size = size;
+   this.crust = crust;
+   this.topping = topping;
+   this.number = number;
+   this.total = total;
+}
 // $(document).ready(function () {
 //    $("#sec").click(function () {
 //       $(".other-order").append('<div class="other-order">' +
