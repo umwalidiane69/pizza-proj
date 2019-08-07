@@ -36,18 +36,18 @@ $(document).ready(function () {
          '</select>' +
          '</div>' +
          '<div id="fo3">' +
-//          'Choose Toppings:<br>' +
-//          '<label for="top"></label>' +
-//          '<select id="topping">' +
-//          '<option>Cheese</option>' +
-//          '<option>Bell pepper</option>' +
-//          '<option>Pineapple</option>' +
-//          '<option>Mushroom</option>' +
-//          '<option>Sausage</option>' +
-//          '<option>Spinach</option>' +
-//          '<option>Tomato</option>' +
-//          '</select>' +
-//          '</div>' +
+         'Choose Toppings:<br>' +
+         '<label for="top"></label>' +
+         '<select id="topping">' +
+         '<option>Cheese</option>' +
+         '<option>Bell pepper</option>' +
+         '<option>Pineapple</option>' +
+         '<option>Mushroom</option>' +
+         '<option>Sausage</option>' +
+         '<option>Spinach</option>' +
+         '<option>Tomato</option>' +
+         '</select>' +
+         '</div>' +
 //          '<div id="fo4">' +
 //          'Order many Pizaa as you want:<br>' +
 //          '<label for="nub"></label>' +
