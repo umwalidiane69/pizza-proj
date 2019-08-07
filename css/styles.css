@@ -8,6 +8,10 @@
     text-align: center;
     font-size: 60px;
 }
+h1{
+    font-size: 70px;
+    padding-top: 100px;
+}
 .fom{
     display: flex;
     flex-direction: column;
