@@ -20,22 +20,22 @@ $(document).ready(function () {
          '</select>' +
          '</div>' +
 
-//          '<div id="fo2">' +
-//          'Choose kind of pizza Crust:<br>' +
-//          '<label for="cru"></label>' +
-//          '<select class="crust">' +
-//          '<option>Grilled</option>' +
-//          '<option>DeepDish</option>' +
-//          '<option>Stuffed</option>' +
-//          '<option>Flatbread</option>' +
-//          '<option>cracker Crust</option>' +
-//          '<option>sicilian</option>' +
-//          '<option>Detroit</option>' +
-//          '<option>whole Wheat</option>' +
-//          '<option>Cout Iron</option>' +
-//          '</select>' +
-//          '</div>' +
-//          '<div id="fo3">' +
+         '<div id="fo2">' +
+         'Choose kind of pizza Crust:<br>' +
+         '<label for="cru"></label>' +
+         '<select class="crust">' +
+         '<option>Grilled</option>' +
+         '<option>DeepDish</option>' +
+         '<option>Stuffed</option>' +
+         '<option>Flatbread</option>' +
+         '<option>cracker Crust</option>' +
+         '<option>sicilian</option>' +
+         '<option>Detroit</option>' +
+         '<option>whole Wheat</option>' +
+         '<option>Cout Iron</option>' +
+         '</select>' +
+         '</div>' +
+         '<div id="fo3">' +
 //          'Choose Toppings:<br>' +
 //          '<label for="top"></label>' +
 //          '<select id="topping">' +
