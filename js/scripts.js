@@ -92,68 +92,68 @@ $(document).ready(function () {
       if (size == "Small") {
          siprice = 1000;
       }
-//       else if (size == "Medium") {
-//          siprice = 2000;
-//       }
-//       else if (size == "Large") {
-//          siprice = 4000;
-//       }
-//       console.log(siprice);
-//       if (non == "Grilled") {
-//          crprice = 400;
-//       }
-//       else if (non = "Stuffed") {
-//          crprice = 500;
-//       }
-//       else if (non == "cracker Crust") {
-//          crprice = 600;
-//       }
-//       else if (non == "sicilian") {
-//          crprice = 700;
-//       }
-//       else if (non == "Detroit") {
-//          crprice = 300;
-//       }
-//       else if (non == "whole Wheat") {
-//          crprice = 800;
-//       }
-//       else if (non == "Cout Iron") {
-//          crprice = 900;
-//       }
-//       console.log(crprice);
-//       if (topping == "Cheese") {
-//          toprice = 400;
-//       }
-//       else if (topping == "Bell pepper") {
-//          toprice = 500;
-//       }
-//       else if (topping == "Pineapple") {
-//          toprice = 300;
-//       }
-//       else if (topping == "Mushroom") {
-//          toprice = 600;
-//       }
-//       else if (topping == "Sausage") {
-//          toprice = 800;
-//       }
-//       else if (topping == "Spinach") {
-//          toprice = 700;
-//       }
-//       else if (topping == "Tomato") {
-//          toprice = 200;
-//       }
-//       console.log(toprice);
-//       total = (siprice + crprice + toprice) * number;
-//       var ordering = new order(name, size, non, topping, number, total);
-//       console.log(ordering);
-//       $("#valuen").text(name);
-//       $("#value2").text(size);
-//       $("#value3").text(non);
-//       $("#value4").text(topping);
-//       $("#value6").text(number);
-//       $("#value5").text(total + " rwf");
+      else if (size == "Medium") {
+         siprice = 2000;
+      }
+      else if (size == "Large") {
+         siprice = 4000;
+      }
+      console.log(siprice);
+      if (non == "Grilled") {
+         crprice = 400;
+      }
+      else if (non = "Stuffed") {
+         crprice = 500;
+      }
+      else if (non == "cracker Crust") {
+         crprice = 600;
+      }
+      else if (non == "sicilian") {
+         crprice = 700;
+      }
+      else if (non == "Detroit") {
+         crprice = 300;
+      }
+      else if (non == "whole Wheat") {
+         crprice = 800;
+      }
+      else if (non == "Cout Iron") {
+         crprice = 900;
+      }
+      console.log(crprice);
+      if (topping == "Cheese") {
+         toprice = 400;
+      }
+      else if (topping == "Bell pepper") {
+         toprice = 500;
+      }
+      else if (topping == "Pineapple") {
+         toprice = 300;
+      }
+      else if (topping == "Mushroom") {
+         toprice = 600;
+      }
+      else if (topping == "Sausage") {
+         toprice = 800;
+      }
+      else if (topping == "Spinach") {
+         toprice = 700;
+      }
+      else if (topping == "Tomato") {
+         toprice = 200;
+      }
+      console.log(toprice);
+      total = (siprice + crprice + toprice) * number;
+      var ordering = new order(name, size, non, topping, number, total);
+      console.log(ordering);
+      $("#valuen").text(name);
+      $("#value2").text(size);
+      $("#value3").text(non);
+      $("#value4").text(topping);
+      $("#value6").text(number);
+      $("#value5").text(total + " rwf");
 
-//    });
+   });
 //    $("#yes").click(function () {
 //       prompt("Enter your location");
 //       alert("Your pizza order will be delivered to your location");
