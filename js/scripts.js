@@ -154,11 +154,11 @@ $(document).ready(function () {
       $("#value5").text(total + " rwf");
 
    });
-//    $("#yes").click(function () {
-//       prompt("Enter your location");
-//       alert("Your pizza order will be delivered to your location");
-//    });
-//    $("#no").click(function () {
-//       alert("Thank you for using our service!!!")
-//    })
-// });
+   $("#yes").click(function () {
+      prompt("Enter your location");
+      alert("Your pizza order will be delivered to your location");
+   });
+   $("#no").click(function () {
+      alert("Thank you for using our service!!!")
+   })
+});
