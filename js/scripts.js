@@ -7,18 +7,18 @@ function order(name, size, crust, topping, number, total) {
    this.number = number;
    this.total = total;
 }
-// $(document).ready(function () {
-//    $("#sec").click(function () {
-//       $(".other-order").append('<div class="other-order">' +
-//          '<div id="fo1">' +
-//          'Choose a size of pizza:<br>' +
-//          '<label for="siz"></label>' +
-//          '<select id="size">' +
-//          '<option>Small</option>' +
-//          '<option>Medium</option>' +
-//          '<option>Large</option>' +
-//          '</select>' +
-//          '</div>' +
+$(document).ready(function () {
+   $("#sec").click(function () {
+      $(".other-order").append('<div class="other-order">' +
+         '<div id="fo1">' +
+         'Choose a size of pizza:<br>' +
+         '<label for="siz"></label>' +
+         '<select id="size">' +
+         '<option>Small</option>' +
+         '<option>Medium</option>' +
+         '<option>Large</option>' +
+         '</select>' +
+         '</div>' +
 
 //          '<div id="fo2">' +
 //          'Choose kind of pizza Crust:<br>' +
