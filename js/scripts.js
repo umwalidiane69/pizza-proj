@@ -79,19 +79,19 @@ $(document).ready(function () {
       )
 
    });
-//    $("#sub").click(function () {
-//       var name = $("#value1").val();
-//       var size = $("#size").val();
-//       var non = $(".crust").val();
-//       var topping = $("#topping").val();
-//       var number = $("#num").val();
-//       var total;
-//       var siprice;
-//       var crprice;
-//       var toprice;
-//       if (size == "Small") {
-//          siprice = 1000;
-//       }
+   $("#sub").click(function () {
+      var name = $("#value1").val();
+      var size = $("#size").val();
+      var non = $(".crust").val();
+      var topping = $("#topping").val();
+      var number = $("#num").val();
+      var total;
+      var siprice;
+      var crprice;
+      var toprice;
+      if (size == "Small") {
+         siprice = 1000;
+      }
 //       else if (size == "Medium") {
 //          siprice = 2000;
 //       }
